@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "demo_bdd"
+package-mode = false
+description = ""
+authors = ["Ondrej Winter <ondrej.winter@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+playwright = "^1.44.0"
+pydantic = "^2.7.3"
+pytest = "^8.2.2"
+pytest-bdd = "^7.2.0"
+python = "^3.11"
+ruff = "^0.4.8"
+black = "^24.4.2"
+pydantic-settings = "^2.3.1"

@@ -1,0 +1,6 @@
+indent-width = 4
+line-length = 120
+target-version = "py311"
+
+lint.select = ["ALL"]
+lint.ignore = ["D100", "D104", "D203", "D205", "D213", "D417", "INP001", "S101"]
